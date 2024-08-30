@@ -7,9 +7,9 @@ INPUT Num1, Num2, Num3
 IF Num1>Num2 AND Num1>Num3
   THEN PRINT "The maximum number is:" , Num1
 ELSEIF Num2>Num1 AND Num2>Num3
-       THEN PRINT "The maximum number is:" , Num2
+  THEN PRINT "The maximum number is:" , Num2
 ELSE
-    PRINT "The maximum number is:" , Num3
+  PRINT "The maximum number is:" , Num3
 END
 ```
 
@@ -26,8 +26,8 @@ IF Operation_Type = 1
    THEN Answer = Num1 + Num2
    PRINT Answer
 ELSEIF Operation_Type = 2
-       THEN Answer = Num1 - Num2
-       PRINT Answer
+   THEN Answer = Num1 - Num2
+   PRINT Answer
 END
 ```
 # Algorithms
