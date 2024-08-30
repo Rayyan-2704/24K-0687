@@ -40,6 +40,30 @@ END
 6. Divide your 'n' number by 2 to find whether it is even or odd.
 7. If the remainder is 0, then the 'n' number is even.
 8. Else, the 'n' number is odd.
+## Implement an algorithm where the user enters a number, and an appropriate month is displayed.
+1. Start by listing all the months in chronological order.
+2. Number the months from 1 to 12 starting from January and ending at December.
+3. Ask the user to input a number from 1 to 12.
+4. Read the number entered by the user.
+5. If it is from 1 to 12, then display the month that corresponds to the number entered.
+6. Else, display an invalid number message.
+## Implement an algorithm for making a simple calculator with all the operators (+,-,*,/,%)
+1. Start by asking the user to enter any two numbers and the symbol of the operation.
+2. Read the two numbers entered by the user and store it as Num1 and Num2 respectively.
+3. Read the symbol of the operation and store it as operator.
+4. If the operator is '+',
+   * Set Result = Num1 + Num2
+5. If the operator is '-',
+   * Set Result = Num1 - Num2
+6. If the operator is '*',
+   * Set Result = Num1 * Num2
+7. If the operator is '/',
+   * Check if Num2 is 0
+   * If true, then display mathematical error
+   * If false, Set Result = Num1/Num2
+   
+  
+   
 
 
 
