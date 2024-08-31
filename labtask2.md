@@ -67,10 +67,11 @@ END
 7. If the operator is '/',
    * Check if Num2 is 0
    * If true, then display mathematical error
-   * If false, Set Result = Num1/Num2\
+   * If false, Set Result = Num1/Num2
 
-   
-  [labtask2flowchart.pdf](https://github.com/user-attachments/files/16824029/labtask2flowchart.pdf)
+# Flowchart
+## You are working at Toyota Indus Motors and want to assemble a car. Design a flowchart with proper process modules and decision structures to replicate a pipeline production.
+ [labtask2flowchart.pdf](https://github.com/user-attachments/files/16824029/labtask2flowchart.pdf)
 
    
 
