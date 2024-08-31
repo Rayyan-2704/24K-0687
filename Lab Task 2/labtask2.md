@@ -72,7 +72,7 @@ END
    * Check if Num2 is 0
    * If true, then display mathematical error
    * If false, Set Result = Num1 % Num2
-9. Display the result for the user.
+9. Display the Result for the user.
 
 # Flowchart
 ## You are working at Toyota Indus Motors and want to assemble a car. Design a flowchart with proper process modules and decision structures to replicate a pipeline production.
