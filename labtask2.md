@@ -15,6 +15,13 @@ END
 
 ## Take three variables as input and add them without using the + operator (Use your head for this)
 ```
+START
+PRINT "Enter any three numbers"
+INPUT Num1, Num2, Num3
+SET Answer = 0
+Answer = Num1 - (-Num2) - (-Num3)
+PRINT Answer
+END
 ```
 ## Create a small calculator which only does ‘+’ or ‘-‘ Operations.
 ```
