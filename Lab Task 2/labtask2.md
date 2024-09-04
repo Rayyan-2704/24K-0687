@@ -76,7 +76,8 @@ END
 
 # Flowchart
 ## You are working at Toyota Indus Motors and want to assemble a car. Design a flowchart with proper process modules and decision structures to replicate a pipeline production.
- [labtask2flowchart.pdf](https://github.com/user-attachments/files/16824029/labtask2flowchart.pdf)
+[pflabtask2flowchart.pdf](https://github.com/user-attachments/files/16880111/pflabtask2flowchart.pdf)
+
 
    
 
