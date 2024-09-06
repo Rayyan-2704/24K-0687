@@ -6,5 +6,5 @@ int main()
    double testInteger=3000000000;
    // Print the value and type 0 between format specifier to print value with no decimal places
    printf("Number is %.0lf", testInteger);
-   return 0; //
+   return 0; 
 }
