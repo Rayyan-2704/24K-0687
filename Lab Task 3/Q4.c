@@ -6,7 +6,7 @@ int main()
   int return_fuelprice = 123;
   int fuelavg; 
   float fuelconsumed_AB, total_fuel_cost, total_fuelconsumed;
-  printf("Enter your car's fuel average:");
+  printf("Enter your car's fuel average(should be positive):");
   scanf("%d", &fuelavg);
   if (fuelavg>0)
     {fuelconsumed_AB = distance_AB/fuelavg;
