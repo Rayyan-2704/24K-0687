@@ -3,7 +3,7 @@
 int main() 
 {
     int num1, num2, result;
-    char operator;
+    char op;
 
   
     printf("Enter your first number: ");
@@ -14,8 +14,8 @@ int main()
     scanf("%d", &num2);
 
     printf("Enter the type of operator to be used (+, -, *, /): ");
-    scanf(" %c", &operator);   
-    switch (operator) {
+    scanf(" %c", &op);   
+    switch (op) {
         case '+':
             result = num1 + num2;
             printf("The result is %d\n", result);
