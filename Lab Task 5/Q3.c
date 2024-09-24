@@ -99,13 +99,4 @@ int main()
     printf("Invalid Input.\n");}
 
  return 0;
-}
-   
-
-       
-      
-   
-   
-
-           
-          
+}  
