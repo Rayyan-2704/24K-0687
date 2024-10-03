@@ -9,7 +9,7 @@ int main()
  while(new_num>0)
  {digit = new_num % 10;
   new_num = new_num / 10;
-  calc=calc + (digit*digit*digit);}
+  calc = calc + (digit*digit*digit);}
  if(calc == num)
    {printf("The number entered is an Armstrong number.");}
  else 
