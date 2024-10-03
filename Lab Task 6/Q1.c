@@ -6,11 +6,11 @@ int main()
   do 
   {printf("Enter a number: ");
    scanf("%d", &num);
-   if(num==0)
+   if(num == 0)
       break;
-   sum=sum+num;
+   sum = sum + num;
    printf("The value stored in the variable adds to %d\n", sum);}
-   while(num!=0);
+   while(num != 0);
    printf("Data entered succcessfully");
    return 0;
  } 
