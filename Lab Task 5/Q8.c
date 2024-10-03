@@ -12,7 +12,7 @@ int main()
   printf("Registration Year: %d\n", registration_year);
   printf("Semester: %d\n", semester);
   
-  // Although the role numbers start from 0, the mapping should have been 0 for Section A & 1 for Section B, so but the question says that 1 is for Section A
+  // Although the role numbers start from 0, the mapping should have been 0 for Section A & 1 for Section B so on, but the question says that 1 is for Section A
   sec_num = roll_number[4] - '0';
   (sec_num == 1) ? printf("Section: A") :
   (sec_num == 2) ? printf("Section: B") :
