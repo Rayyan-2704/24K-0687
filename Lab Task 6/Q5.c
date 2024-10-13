@@ -23,7 +23,7 @@ int main()
      else 
         {printf("  ");}
      
-     if (i%5 == 0)
+     if(i%5 == 0)
         {printf("\n");} }
         return 0;
 }
