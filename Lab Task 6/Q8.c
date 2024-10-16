@@ -13,6 +13,7 @@ int main()
   return 0;
 }
 
+
 // Hourglass with asterisks
 #include<stdio.h>
 int main()
@@ -21,9 +22,28 @@ int main()
   for(i=0 ; i<=4 ; i++)
    {if(i == 0 || i == 4)
       {printf("* * * * *\n");}
-    else if(i == 1 || i ==3)
+    else if(i == 1 || i == 3)
       {printf("  *   *  \n");}
     else 
       {printf("    *    \n");} }
+  return 0;
+}
+// A better approach to this problem would be as follows:
+#include<stdio.h>
+int main()
+{
+  int i;
+  for(i=1 ; i<=25 ; i++)
+     {if(i<=5 || i>20)
+        {printf("* ");}
+      else if(((i>5 && i<=10) || (i>15 && i<=20)) && (i%5==2 || i%5==4))
+        {printf("* ");}
+      else if((i>10 && i<=15) && (i%5==3))
+        {printf("* ");}
+      else
+        {printf("  ");} 
+         
+      if(i%5==0)
+        {printf("\n");} }
   return 0;
 }
