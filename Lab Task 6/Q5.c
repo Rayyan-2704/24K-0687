@@ -18,7 +18,7 @@ int main()
   for(i=1 ; i<=30 ; i++)
     {if(i<=5 || i>=26)
         {printf("* ");}
-     else if((i>5 || i<26) && (i%5==1 || i%5==0))
+     else if((i>5 && i<26) && (i%5==1 || i%5==0))
         {printf("* ");}
      else 
         {printf("  ");}
