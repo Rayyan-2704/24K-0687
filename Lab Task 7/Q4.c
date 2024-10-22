@@ -2,7 +2,7 @@
 int main()
 {
   int length=0;
-  char str[40];
+  char str[100];
   printf("Enter a string: ");
   scanf("%s", str);
   char *ptr;
