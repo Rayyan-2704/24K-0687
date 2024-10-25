@@ -19,15 +19,15 @@ int main()
              {result+=temp;}
            else if(last_op=='-')
              {result-=temp;}
-            temp=0;
-            last_op='+';}
+           temp=0;
+           last_op='+';}
         else if(eq[i]=='-')
           {if(last_op=='+')
              {result+=temp;}
            else if(last_op=='-')
              {result-=temp;}
-            temp=0;
-            last_op='-';}
+           temp=0;
+           last_op='-';}
         else
           {printf("Invalid character entered.");
            return 1;}}
