@@ -6,7 +6,7 @@ int main() {
     int arr[rows][rows];  //Same number of rows and columns
     //Initializing all elements of the array to zero 
     for(int i=0 ; i<rows ; i++)
-       {for(int j=0 ; j<=rows ; j++)
+       {for(int j=0 ; j<rows ; j++)
            {arr[i][j]=0;} }
     
     //The value for a specific position in the Pascal Triangle will be the sum of the value in the previous row, previous column & the previous row, same column.
