@@ -1,6 +1,6 @@
 /* Write a program that initializes a 2D character array with a list of words. Then, take a
 word as input from the user and check if it exists in the array. Display "Found" if it’s
-there, otherwise display "Not Found". */
+there, otherwise display "Not Found" */
 
 #include<stdio.h>
 #include<string.h>
