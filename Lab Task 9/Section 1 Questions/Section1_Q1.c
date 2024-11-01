@@ -1,3 +1,5 @@
+/* Write a C function that takes two numbers as input and returns their product .*/
+
 #include<stdio.h>
 float product(float a, float b);
 
