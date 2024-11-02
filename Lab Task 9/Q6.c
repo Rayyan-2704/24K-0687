@@ -1,3 +1,7 @@
+/* Create a function that returns the maximum and minimum element in an integer array. Use this
+function in the main program to find the maximum and minimum from an array entered by the
+user. */
+
 #include <stdio.h>
 void search_max_min(int arr[], int size, int *max, int *min);
 
