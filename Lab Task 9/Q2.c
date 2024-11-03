@@ -11,6 +11,7 @@ int main(){
     scanf("%d", &num1);
     printf("Enter the second number: ");
     scanf("%d", &num2);
+    printf("Before swapping: first number is %d and second number is %d.\n", num1, num2);
     swapIntegers(num1, num2);
     return 0;
 }
