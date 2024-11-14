@@ -10,6 +10,7 @@ int main()
     scanf("%d", &num);
 
     printf("The sum of digits of %d is %d.", num, sum(num));
+    return 0;
 }
 
 int sum(int num)
