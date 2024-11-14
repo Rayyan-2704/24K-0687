@@ -1,3 +1,5 @@
+// Write a recursive function that calculates the sum of digits of a number. For example, if the input is 123, the output should be 6.
+
 #include <stdio.h>
 int sum(int num);
 
