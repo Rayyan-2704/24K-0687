@@ -26,6 +26,8 @@ int main()
     {
         printf("%d ", arr[i]);
     }
+
+    return 0;
 }
 
 void bubbleSort(int arr[], int size)
