@@ -115,7 +115,6 @@ void author_search(library books[], int size)
         {
             flag = 1;
             printf("Book Title: %s\n", books[i].title);
-            ;
         }
     }
 
