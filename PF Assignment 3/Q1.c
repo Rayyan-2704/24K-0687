@@ -57,7 +57,7 @@ void tenure_check(Employee employees[], int size)
         }
 
         if (current_date[1] == employees[i].dateOfJoining[1] && current_date[0] < employees[i].dateOfJoining[0])
-        { // If months are same, but the date of curret is less
+        { // If months are same, but the date of current is less
             tenure--;
         }
 
