@@ -1,3 +1,5 @@
+/* Write a program to copy the contents of one file to another. (Create a File with some dummy data, The data is not required to be formatted) */
+
 #include <stdio.h>
 int main()
 {
