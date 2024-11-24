@@ -22,11 +22,11 @@ int main()
 
     if (validateEmail(email))
     {
-        printf("Valid Email.");
+        printf("Valid Email.\n");
     }
     else
     {
-        printf("Invalid Email.");
+        printf("Invalid Email.\n");
     }
 
     free(email);
