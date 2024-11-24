@@ -8,7 +8,7 @@ int main()
 {
     int length = 50;
     char *email;
-    email = (char *)malloc(length * sizeof(char));
+    email = (char *) malloc(length * sizeof(char));
 
     if (email == NULL)
     {
