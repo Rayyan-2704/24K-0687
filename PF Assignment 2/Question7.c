@@ -68,7 +68,7 @@ int search(char arr[6][5], char str[]){
     
     //Checking column-wise
     for(int j = 0 ; j < 5 ; j++) 
-       {for(int i = 0 ; i <= 5 - length ; i++)  // i<=6-length so that the search does not go out of bounds
+       {for(int i = 0 ; i <= 5 - length ; i++)  // i<=5-length so that the search does not go out of bounds
            {int found = 1;
             for(int k = 0 ; k < length ; k++) 
                {if(arr[i+k][j] != str[k]) 
