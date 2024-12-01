@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-// When allocating dynamic memory for a matrix through a function pass it through a pointer.
+// When allocating dynamic memory for an array through a function, pass it through a pointer.
 
 void initializeInventory(char ****s_ptr, int numSpecies); // s_ptr is a pointer of a 3D array
 void addSupplies(char ****s_ptr, int numSpecies, int numSupplies);
