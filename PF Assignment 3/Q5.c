@@ -86,7 +86,7 @@ int main()
 void initializeInventory(char ****s_ptr, int numSpecies)
 {
     // Allocating rows for species (each row corresponds to a different species)
-    *s_ptr = (char ***)malloc(numSpecies * sizeof(char **)); // Dereferencing *s_ptr to get 3D array
+    *s_ptr = (char ***)calloc(numSpecies, sizeof(char **)); // Dereferencing *s_ptr to get 3D array
     if (*s_ptr == NULL)
     {
         printf("Memory allocation failed.\n");
