@@ -48,7 +48,7 @@ int main(){
 
     arr = realloc(arr,newTotalLength * sizeof(char));
 
-    // Shifting the full name leftwards, starting first from the null terminator
+    // Shifting the full name rightwards, starting first from the null terminator
     for(int i = N-1 ; i >= 0; i--){
         arr[i+rollNumLength] = arr[i];
     }
