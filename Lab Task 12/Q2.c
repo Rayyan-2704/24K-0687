@@ -1,3 +1,4 @@
+// Mistake in question as 'temp ----> a' should have been 'temp ----> c'
 /* Write a program to implement the exchange or swap the values of 3 variables{a,b,c}. To
 implement this, you need to write a function called swaped().
 void swaped(int *aPtr, int *bPtr, int *cPtr);
