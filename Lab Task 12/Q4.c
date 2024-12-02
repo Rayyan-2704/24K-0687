@@ -34,7 +34,7 @@ int main(){
         return 1;
     }
 
-    printf("Dynamic array: %s", arr);
+    printf("Dynamic array: %s\n", arr);
 
     free(arr);
     return 0;
