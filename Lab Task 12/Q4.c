@@ -17,7 +17,7 @@ int main(){
     length++; // To count the space of the null terminator as well
 
     int N;
-    printf("Enter the total number of characters of the full name entered: ");
+    printf("Enter the total number of characters of the full name entered (include null terminator as well): ");
     scanf("%d", &N);
 
     char *arr = (char *) calloc(N, sizeof(char));
