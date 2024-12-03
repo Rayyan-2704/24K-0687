@@ -32,7 +32,7 @@ int main()
     printf("\nEnter the new size of the array: ");
     scanf("%d", &newSize);
 
-    arr = realloc(arr, newSize * sizeof(int));
+    arr = (int *)realloc(arr, newSize * sizeof(int));
     if (arr == NULL)
     {
         printf("Memory allocation failed.\n");
