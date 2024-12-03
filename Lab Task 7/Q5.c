@@ -13,8 +13,8 @@ int main()
   // Checking for palindrome
   for(int i=0 ; i<length ; i++)
      {if(str[i] != str[length-1-i])
-        {palindrome = 0;} 
-         break;}
+        {palindrome = 0; 
+         break;} }
 
   // Printing if string is palindrome or not
   if(palindrome == 1)
